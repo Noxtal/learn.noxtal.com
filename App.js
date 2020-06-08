@@ -44,7 +44,7 @@ var cy = cytoscape({
   ],
 });
 
-cy.minZoom(0.57);
+cy.minZoom(0.3);
 cy.maxZoom(18);
 
 function zoomOn(target) {

@@ -6,7 +6,7 @@ function renderPage(id) {
     url: dlurl + id + ".json",
     dataType: "json",
     success: function (data) {
-      buildPage(obj.title, obj.desc, obj.link);
+      buildPage(data.title, data.desc, data.links);
     },
     error: function (data) {
       buildPage(
@@ -14,10 +14,6 @@ function renderPage(id) {
         "This part of the site is either not completed yet (hard work in progress) or non-existent. For more information, contact me on Twitter @noxtal_. ;)",
         []
       );
-    },
-    complete: function (xhr, data) {
-      if (xhr.status != 0) console.log("Done loading " + id);
-      else console.log("Failed loading " + id);
     },
   });
 }
