@@ -1,6 +1,5 @@
-// dlurl =
-//   "https://raw.githubusercontent.com/Noxtal/learn.noxtal.com/master/pages/";
-dlurl = "http://127.0.0.1:8887/pages/"
+dlurl = "https://raw.githubusercontent.com/Noxtal/learn.noxtal.com/master/pages/";
+// dlurl = "http://127.0.0.1:8887/pages/"
 
 function renderPage(id) {
   $.ajax({
