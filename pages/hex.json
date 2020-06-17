@@ -1,0 +1,9 @@
+{
+    "title": "Hexadecimal",
+    "desc": "Hexadecimal is a number system defined on 16 different values (compared to decimal, which is the one used by humans, that consists of only 10). Those values start from 0 to 9 and then reach out A to F (F representing the number 15). This system is used a lot in computer science as it provides a human-friendly way to visualize binary data.",
+    "links": [
+        "https://en.wikipedia.org/wiki/Hexadecimal",
+        "https://simple.wikipedia.org/wiki/Hexadecimal",
+        "https://www.electronics-tutorials.ws/binary/bin_3.html"
+    ]
+}

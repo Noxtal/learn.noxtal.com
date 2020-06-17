@@ -1,0 +1,10 @@
+{
+    "title": "Caesar Cipher",
+    "desc": "Caesar cipher is a encryption method that rotates every character in the plaintext by a number of positions (the key) in the alphabet. This cipher is named after Julius Caesar, who apparently used it to communicate with his generals. (source <a href='http://practicalcryptography.com/ciphers/caesar-cipher/'>Practical Cryptography</a>",
+    "links": [
+        "https://en.wikipedia.org/wiki/Caesar_cipher",
+        "http://practicalcryptography.com/ciphers/caesar-cipher/",
+        "https://www.cs.mcgill.ca/~rwest/wikispeedia/wpcd/wp/c/Caesar_cipher.htm",
+        "https://www.scientificamerican.com/article/crack-the-code-make-a-caesar-cipher/"
+    ]
+}

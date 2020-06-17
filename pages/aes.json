@@ -1,0 +1,10 @@
+{
+    "title": "Advanced Encryption Standard (AES)",
+    "desc": "AES is a fast and secure form of encryption used worldwide as a standard. It is considered as military-grade encryption and is used even as the standard for the United States government.",
+    "links": [
+        "https://en.wikipedia.org/wiki/Advanced_Encryption_Standard",
+        "https://www.tutorialspoint.com/cryptography/advanced_encryption_standard.htm",
+        "https://www.comparitech.com/blog/information-security/what-is-aes-encryption/",
+        "https://searchsecurity.techtarget.com/definition/Advanced-Encryption-Standard"
+    ]
+}

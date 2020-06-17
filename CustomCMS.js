@@ -1,5 +1,6 @@
-dlurl =
-  "https://raw.githubusercontent.com/Noxtal/learn.noxtal.com/master/pages/";
+// dlurl =
+//   "https://raw.githubusercontent.com/Noxtal/learn.noxtal.com/master/pages/";
+dlurl = "http://127.0.0.1:8887/pages/"
 
 function renderPage(id) {
   $.ajax({
@@ -18,6 +19,16 @@ function renderPage(id) {
   });
 }
 
+function onPage404(id, cb){
+  $.ajax({
+    url: dlurl + id + ".json",
+    dataType: "json",
+    error: function (e) {
+      if(e.status == 404) cb()
+    },
+  });
+}
+
 function hidePage() {
   let page = $("#page");
   page.attr("hidden", true);
@@ -31,8 +42,8 @@ function buildPage(title, desc, links) {
   page.find("#desc").html(desc);
 
   let linklist = page.find("#links");
-  linklist.empty()
-  
+  linklist.empty();
+
   $.each(links, function () {
     $("<li></li>")
       .html("<a href=" + this + ">" + this + "</a>")

@@ -1,0 +1,10 @@
+{
+    "title": "Local File Inclusion (LFI)",
+    "desc": "Local File Inclusion is an attack targetting web application which include a file without sanitising the input. It allows an attacker to request and expose (or run) a file from the server that was not intended to be accessible. This leads to, among others, information disclosure, Remote Code Execution (RCE) or Cross-site Scripting (XSS).",
+    "links": [
+        "https://en.wikipedia.org/wiki/File_inclusion_vulnerability#Local_file_inclusion",
+        "https://www.acunetix.com/blog/articles/local-file-inclusion-lfi/",
+        "https://medium.com/@Aptive/local-file-inclusion-lfi-web-application-penetration-testing-cc9dc8dd3601",
+        "https://www.offensive-security.com/metasploit-unleashed/file-inclusion-vulnerabilities/"
+    ]
+}

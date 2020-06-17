@@ -1,0 +1,10 @@
+{
+    "title": "HTML: HyperText Markup Language",
+    "desc": "HTML is the standard programming language to define the core design of every web application. It can be coupled with CSS for styling or with JavaScript for interactivity.",
+    "links": [
+        "https://en.wikipedia.org/wiki/HTML",
+        "https://www.learn-html.org/",
+        "https://html.com/",
+        "https://www.w3schools.com/html/"
+    ]
+}

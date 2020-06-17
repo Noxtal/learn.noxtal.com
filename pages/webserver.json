@@ -1,0 +1,9 @@
+{
+    "title": "Web Server",
+    "desc": "A web server is a program (or hardware running it) that can satisfy requests from users (clients) on the internet. (Inspired from <a href='https://en.wikipedia.org/wiki/Web_server'>Wikipedia</a>) The main tasks a web server achieves is storing and delivering webpages to clients.",
+    "links": [
+        "https://en.wikipedia.org/wiki/Web_server",
+        "https://www.nginx.com/resources/glossary/web-server/",
+        "https://whatis.techtarget.com/definition/Web-server"
+    ]
+}

@@ -3,11 +3,39 @@ var cy = cytoscape({
 
   ready: function () {
     this.layout({
+      name: "random",
+    }).run();
+
+    this.layout({
       name: "cose-bilkent",
       animationDuration: 3000,
-      nodeRepulsion: 4500,
+      nodeRepulsion: 5300,
+      idealEdgeLength: 40,
     }).run();
+
+    for (let elt of this.elements()) {
+      if (elt.group() == "nodes") {
+        let id = elt.id();
+        let data = elt.data();
+
+        if (data.subject == "True") {
+          $("<li></li>")
+            .html(
+              "<button onclick='zoomOn(cy.$(\"#" +
+                id +
+                "\").successors())'>" +
+                data.name +
+                "</button>"
+            )
+            .appendTo($("#cat"));
+        }
+
+        onPage404(id, () => elt.data("color", "#A4ADB7"));
+      }
+    }
   },
+
+  wheelSensitivity: 0.5,
 
   elements: graph,
 
@@ -21,6 +49,7 @@ var cy = cytoscape({
         "border-color": "data(color)",
         "border-width": 3,
         label: "data(name)",
+        "z-index":10
       },
     },
 
@@ -29,6 +58,8 @@ var cy = cytoscape({
       style: {
         width: 3,
         "line-color": "white",
+        "mid-target-arrow-shape": "triangle",
+        "mid-target-arrow-color": "white",
       },
     },
 
@@ -38,7 +69,7 @@ var cy = cytoscape({
         color: "data(color)",
         "font-size": "14px",
         "text-wrap": "wrap",
-        "text-max-width": "100px",
+        "text-max-width": "50px",
       },
     },
   ],
@@ -52,7 +83,7 @@ function zoomOn(target) {
     {
       fit: {
         eles: target,
-        padding: 30,
+        padding: 50,
       },
     },
     {
@@ -65,11 +96,12 @@ lastClicked = null;
 cy.on("tap", function (event) {
   if (event.target === cy) {
     zoomOn(cy);
-    hidePage()
+    lastClicked = null;
+    hidePage();
   } else if (event.target.group() == "nodes") {
-    target_url = window.location.href + "?id=" + event.target.id()
+    target_url = window.location.href + "?id=" + event.target.id();
     if (lastClicked == event.target) {
-      renderPage(event.target.id())
+      renderPage(event.target.id());
       lastClicked = null;
     } else {
       lastClicked = event.target;

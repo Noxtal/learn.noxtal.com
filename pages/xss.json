@@ -1,0 +1,13 @@
+{
+    "title": "Cross-Site Scripting (XSS)",
+    "desc": "Cross-Site Scripting is a common web vulnerability consisting of injecting client-side code (mostly JavaScript) to target users of a web application. It allows the attacker to execute malicious scripts in the victim's browser despite being on a legitimate web page. As explained on <a href='https://www.acunetix.com/websitesecurity/cross-site-scripting/'>Acunetix.com</a>, the web page or web application becomes a vehicle to deliver the malicious script to the user (victim).",
+    "links": [
+        "https://en.wikipedia.org/wiki/Cross-site_scripting",
+        "https://www.imperva.com/learn/application-security/cross-site-scripting-xss-attacks/",
+        "https://www.acunetix.com/websitesecurity/cross-site-scripting/",
+        "https://owasp.org/www-community/attacks/xss/",
+        "https://www.youtube.com/watch?v=L5l9lSnNMxg",
+        "https://portswigger.net/web-security/cross-site-scripting",
+        "https://portswigger.net/web-security/cross-site-scripting/cheat-sheet"
+    ]
+}

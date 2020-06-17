@@ -2,7 +2,15 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Noxtal Learning Tree</title>
+    <title>Noxtal Learning Network</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Primer/14.2.0/primer.css"
+      integrity="sha256-E87Tkz42LQq12ydBe3fnxgoMTZnZsnX/ZPbK32f6+0g="
+      crossorigin="anonymous"
+    />
+
     <link rel="stylesheet" href="style.css" />
 
     <script
@@ -21,27 +29,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
-    <!-- Graph -->
-    <div id="cy"></div>
-
-    <!-- Page -->
-    <div id="page">
-      <h1 id="title"></h1>
-      <p id="desc"></p>
-      <h3 id="learnm">Learn More</h3>
-      <ul id="links"></ul>
+    <!-- Header -->
+    <div class="Header">
+      <div class="Header-item">
+        <a href="" class="Header-link f4 d-flex flex-items-center">
+          <!-- <%= octicon "mark-github", class: "mr-2", height: 32 %> -->
+          <img
+            src="https://avatars.githubusercontent.com/Noxtal?s=32"
+            class="octicon octicon-mark-github mr-2"
+            alt="@Noxtal"
+            height="32"
+            width="32"
+          />
+          <span>Hacking Learning Network by Noxtal</span>
+        </a>
+      </div>
+      <div class="Header-item">
+        <a href="https://noxtal.com" class="Header-link">Home</a>
+      </div>
+      <div class="Header-item">
+        <a href="https://writeups.noxtal.com/#/pages/about" class="Header-link"
+          >About</a
+        >
+      </div>
     </div>
-    <script src="Graph.js"></script>
-    <script src="App.js"></script>
-    <script src="CustomCMS.js"></script>
 
-    <script>
-      // buildPage(
-      //   "Lorem Ipsum",
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce faucibus vestibulum aliquam. Praesent ut felis nec tellus posuere gravida lacinia eu nunc. Aenean eu congue nulla. Pellentesque id quam feugiat, tempus neque finibus, faucibus mauris. Sed id nulla ac arcu eleifend faucibus id eu massa. Donec vulputate congue lectus, id placerat turpis pulvinar et. Duis dignissim ante ac magna accumsan rhoncus. Quisque tempus pulvinar turpis, vel vehicula nisl consectetur sit amet. Donec nec augue lectus. In quis vestibulum turpis. Donec auctor massa vel placerat maximus. Proin hendrerit, nunc sed lobortis pulvinar, risus velit condimentum tortor, aliquet scelerisque risus ligula et nunc. Maecenas in facilisis est. Nulla suscipit velit non tellus mollis, vitae tincidunt ligula vulputate.",
-      //   ["Lol", "XD", "LMAO"]
-      // );
-      hidePage()
-    </script>
+    <div class="container">
+      <!-- Menu -->
+      <div class="sidemenu">
+        <h3>Welcome to the learning network!</h3>
+        <h5>How does it work?</h5>
+        <p>
+          Click a node to focus on it. When clicking on a focused node, you'll
+          see details about it. To move through the network, drag the mouse or
+          click on the edges of a focused node.
+        </p>
+        <div class="flash flash-warn">
+          This website is still under strong development. The nodes with grey
+          outlines are not implemented yet.
+        </div>
+        <h2>Learn about</h2>
+        <ul id="cat"></ul>
+      </div>
+
+      <!-- Graph -->
+      <div id="cy">
+        <!-- Page -->
+        <div id="page" hidden>
+          <!-- <a href="https://github.com/Noxtal"><img id="avatar" alt="Tool provided by Noxtal." src="https://avatars.githubusercontent.com/Noxtal?s=128"></a> -->
+          <h1 id="title"></h1>
+          <p id="desc"></p>
+          <h3 id="learnm">Learn More</h3>
+          <ul id="links"></ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="Graph.js"></script>
+    <script src="CustomCMS.js"></script>
+    <script src="App.js"></script>
   </body>
 </html>

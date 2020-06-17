@@ -1,0 +1,10 @@
+{
+    "title": "Cross-Site Request Forgery (CSRF)",
+    "desc": "CSRF is the third major web vulnerability. (according to <a href='https://www.youtube.com/watch?v=vRBihr41JTo'>Computerphile</a>) It allows the attacker to force an end-user to execute unwanted actions on a web application in which they're currently authenticated. It can compromise the whole web application. (inspired from <a href='https://owasp.org/www-community/attacks/csrf'>OWASP</a>)",    "links": [
+        "https://en.wikipedia.org/wiki/Cross-site_request_forgery",
+        "https://owasp.org/www-community/attacks/csrf",
+        "https://www.youtube.com/watch?v=vRBihr41JTo",
+        "https://www.imperva.com/learn/application-security/csrf-cross-site-request-forgery/",
+        "https://portswigger.net/web-security/csrf"
+    ]
+}

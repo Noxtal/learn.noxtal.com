@@ -1,0 +1,12 @@
+{
+    "title": "SQL Injection",
+    "desc": "An SQL injection is an injection attack targetting vulnerable SQL databases. It implies interfering with database queries to inject malicious statements. Those statements ables the attacker to perform different actions such as leaking the database or even clear it all out.",
+    "links": [
+        "https://en.wikipedia.org/wiki/SQL_injection",
+        "https://www.acunetix.com/websitesecurity/sql-injection/",
+        "https://owasp.org/www-community/attacks/SQL_Injection",
+        "https://portswigger.net/web-security/sql-injection",
+        "https://www.w3schools.com/sql/sql_injection.asp",
+        "https://www.hacksplaining.com/exercises/sql-injection"
+    ]
+}

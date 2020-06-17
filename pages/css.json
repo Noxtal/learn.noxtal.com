@@ -1,0 +1,10 @@
+{
+    "title": "CSS: Cascading Style Sheets",
+    "desc": "CSS is a programming language describing the presentation and the styling of a web page. It allows the developer, for instance, to create layouts, use multiple colors, and to add a font different to the default provided by the browsers.",
+    "links": [
+        "https://en.wikipedia.org/wiki/Cascading_Style_Sheets",
+        "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        "https://developer.mozilla.org/en-US/docs/Learn/CSS",
+        "https://www.w3schools.com/css/"
+    ]
+}

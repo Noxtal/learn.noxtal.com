@@ -1,0 +1,9 @@
+{
+    "title": "Burp Suite",
+    "desc": "Burp Suite is the world's most widely used web application security testing software. It contains various tools that work seamlessly together through the entire testing process. Burp gives you full control, letting you combine advanced manual techniques with state-of-the-art automation, to make your work faster, more effective, and more fun. (Source: <a href='https://tools.kali.org/web-applications/burpsuite'>Kali Tools</a>))",
+    "links": [
+        "https://wiki2.org/en/Burp_suite",
+        "https://tools.kali.org/web-applications/burpsuite",
+        "https://portswigger.net/support/burp-suite-tools"
+    ]
+}

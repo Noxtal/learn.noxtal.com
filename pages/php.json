@@ -1,0 +1,11 @@
+{
+    "title": "PHP (Programming Language)",
+    "desc": "PHP is a general-purpose programming language created for web development. PHP got itself a bad reputation over the years for many reasons. One of them being that it was easy without the required experience to write deeply flawed web applications (mostly in older versions). Despite that, some sites on the internet, like WordPress ones, still use PHP.",
+    "links": [
+        "https://en.wikipedia.org/wiki/PHP",
+        "https://www.php.net/manual/en/",
+        "https://www.learn-php.org/",
+        "https://www.w3schools.com/php/",
+        "https://stitcher.io/blog/php-in-2020"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "title": "Nginx",
+    "desc": "Nginx (pronounced 'engine X') is a free, open-source and cross-platform HTTP and reverse proxy server written in C. It can also be used as a mail proxy server or a generic TCP/UDP proxy sever. It served 31.7% of the top 10 million sites.",
+    "links": [
+        "https://en.wikipedia.org/wiki/Nginx",
+        "https://nginx.org/en/"
+    ]
+}

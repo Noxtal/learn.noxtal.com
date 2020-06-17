@@ -1,56 +1,107 @@
+.Header {
+  border-bottom: 2px solid white;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+}
+
+/* GRAPH */
 body {
   background-color: black;
-  font-family: "Lucida Console", Monaco, monospace;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   height: 100%;
   margin: 0;
+  overflow: hidden;
 }
 
 #cy {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0px;
-    left: 0px;
+  flex: auto;
+  position: relative;
 }
 
+#cy canvas {
+  position: absolute;
+}
+
+/* PAGE */
 #page {
   width: 90%;
   height: 90%;
-  position: fixed;
+  position: absolute;
   top: 5%;
   left: 5%;
   margin: auto;
-  border-radius: 2%;
+  border-radius: 1%;
   background-color: #24292ecc;
   color: white;
+  z-index: 9999;
 }
 
 #title {
   text-align: center;
-  margin: 2% 0 0 0;
-  font-size: 100px;
+  margin: 0.5vh 0 0.5vh 0;
+  font-size: 4vw;
+  font-weight: bold;
+}
+
+#avatar {
+  height: 1em;
+  float: left;
+  margin-left: 5%;
+  border-radius: 0.2em;
 }
 
 #desc {
-  font-size: 24px;
+  font-size: 2.4vw;
   margin: 0 5%;
 }
 
 #learnm {
   margin: 2% 5% 0 5%;
-  font-size: 36px;
+  font-size: 3vw;
 }
 
 #links {
+  padding: 0;
+  margin: 0 5% 0 5%;
+  font-size: 2vw;
+}
+
+li {
   list-style-type: none;
-  margin: 0.5%;
-  font-size: 18px;
 }
 
 #links li {
   margin: 10px;
 }
 
-a {
+#links li a {
   color: inherit;
+  text-decoration: underline;
+}
+
+/* MENU */
+.sidemenu {
+  background-color: #24292e;
+  color: white;
+  width: 20%;
+  padding: 1%;
+}
+
+#cat button {
+  background-color: #1b1f22;
+  color: white;
+  min-width: 100%;
+  margin: 1%;
+  border: 1px solid white;
+  border-radius: 5%;
+}
+
+
+.flash {
+  padding: 3%;
 }

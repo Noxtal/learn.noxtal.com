@@ -1,0 +1,9 @@
+{
+    "title": "Remote File Inclusion (RFI)",
+    "desc": "Remote File Inclusion is an attack targeting web applications that dynamically includes remote (or external) scripts. It allows the attacker to reference an external script, thus allowing it to upload a reverse shell for exemple. This attack can lead to information theft and complete server takeover.",
+    "links": [
+        "https://en.wikipedia.org/wiki/File_inclusion_vulnerability#Remote_file_inclusion",
+        "https://www.imperva.com/learn/application-security/rfi-remote-file-inclusion/",
+        "https://www.acunetix.com/blog/articles/remote-file-inclusion-rfi/"
+    ]
+}

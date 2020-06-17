@@ -1,0 +1,8 @@
+{
+    "title": "Node.js",
+    "desc": "Node.js is an open-source and cross-platform JavaScript runtime environment. It lets developers use JavaScript for command-line tools and server-side scripting (thus allowing the creation of dynamic web pages in JavaScript).",
+    "links": [
+        "https://en.wikipedia.org/wiki/Node.js",
+        "https://nodejs.dev/"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "title": "Apache HTTP Server",
+    "desc": "Apache is a free, open-source and cross-platform HTTP server developed in C. It served 39.5% of the top 10 million sites.",
+    "links": [
+        "https://en.wikipedia.org/wiki/Apache_HTTP_Server",
+        "https://httpd.apache.org/"
+    ]
+}

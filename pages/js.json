@@ -1,0 +1,12 @@
+{
+    "title": "JavaScript (Programming Language)",
+    "desc": "JavaScript is a programming language used principally for interactive web pages. It is essential for web applications and, thus, for the entire World Wide Web. JavaScript can also be found as a server-side language by the use of the node.js platform.",
+    "links": [
+        "https://en.wikipedia.org/wiki/JavaScript",
+        "https://www.learn-js.org/",
+        "https://javascript.info/",
+        "https://learnjavascript.online/",
+        "https://www.w3schools.com/js/",
+        "https://en.wikipedia.org/wiki/Node.js"
+    ]
+}

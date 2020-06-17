@@ -1,0 +1,8 @@
+{
+    "title": "CTFs: Capture The Flag",
+    "desc": "CTFs are the most popular way to learn cybersecurity. They are often divided into two major categories: Jeopardy and Attack & Defense style. Despite their differences, they both link to a core concept: finding and submitting flags (strings of character) by exploiting vulnerabilities to get more points and climb into the scoreboard.",
+    "links": [
+        "https://blogs.cisco.com/perspectives/cyber-security-capture-the-flag-ctf-what-is-it",
+        "https://trailofbits.github.io/ctf/"
+    ]
+}
