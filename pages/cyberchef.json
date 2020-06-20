@@ -1,0 +1,8 @@
+{
+    "title": "CyberChef",
+    "desc": "CyberChef is a simple, intuitive web app for carrying out all manner of 'cyber' operations (crypto, forensics, etc...) within a web browser. It is often referred to as the 'Cyber Swiss Army Knife'.",
+    "links": [
+        "https://gchq.github.io/CyberChef/",
+        "https://github.com/gchq/CyberChef"
+    ]
+}

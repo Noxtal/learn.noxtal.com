@@ -1,0 +1,9 @@
+{
+    "title": "Base64",
+    "desc": "Base64 is an encoding scheme for converting any binary data to letters of a 64 characters alphabet. Each Base64 digit represents exactly 6 bits of data. The '=' symbol may be used at the end as padding.",
+    "links": [
+        "https://en.wikipedia.org/wiki/Base64",
+        "https://tools.ietf.org/html/rfc4648",
+        "https://stackoverflow.com/questions/201479/what-is-base-64-encoding-used-for"
+    ]
+}

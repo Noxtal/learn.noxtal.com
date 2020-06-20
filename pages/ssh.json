@@ -1,0 +1,8 @@
+{
+    "title": "Secure Shell (SSH)",
+    "desc": "SSH is the main protocol for connecting to another machine securely through an insecure network.",
+    "links": [
+        "https://en.wikipedia.org/wiki/Secure_Shell",
+        "https://www.ssh.com/ssh/"
+    ]
+}

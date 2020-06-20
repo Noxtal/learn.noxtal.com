@@ -1,0 +1,10 @@
+{
+    "title": "RSA (Rivest–Shamir–Adleman)",
+    "desc": "RSA is one of the first asymmetric (public-key) cryptosystems. It is widely used for secure data transmission over the Internet. RSA is secure from the difficulty behind factoring two large prime numbers.",
+    "links": [
+        "https://en.wikipedia.org/wiki/RSA_(cryptosystem)",
+        "https://searchsecurity.techtarget.com/definition/RSA",
+        "https://www.britannica.com/topic/RSA-encryption",
+        "https://www.golangprograms.com/rivest-shamir-adleman-rsa.html"
+    ]
+}

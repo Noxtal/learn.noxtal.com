@@ -1,0 +1,9 @@
+{
+    "title": "Base32",
+    "desc": "Base32 is an encoding scheme for converting any binary data to letters of a 32 characters alphabet. Each Base32 digit represents exactly 5 bits of data. The '=' symbol may be used at the end as padding.",
+    "links": [
+        "https://en.wikipedia.org/wiki/Base32",
+        "https://tools.ietf.org/html/rfc4648",
+        "https://stackoverflow.com/questions/5293836/what-is-base32-encoding"
+    ]
+}

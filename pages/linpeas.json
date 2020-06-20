@@ -1,0 +1,9 @@
+{
+    "title": "linPEAS",
+    "desc": "LinPEAS is part of the Privilege Escalation Awesome Scripts SUITE (PEASS). It is a Linux privilege escalation script that enumerates as most probable vulnerabilities that could lead to privilege escalation as possible.",
+    "links": [
+        "https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite",
+        "https://securityonline.info/peass-privilege-escalation-awesome-scripts-suite/",
+        "https://book.hacktricks.xyz/linux-unix/privilege-escalation"
+    ]
+}

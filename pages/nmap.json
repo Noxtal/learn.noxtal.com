@@ -1,0 +1,10 @@
+{
+    "title": "Nmap",
+    "desc": "Nmap (standing for Network Scanner) is a free and open-source tool used to discover hosts and services running on a machine's ports or on a network.",
+    "links": [
+        "https://en.wikipedia.org/wiki/Nmap",
+        "https://nmap.org/book/man.html#man-description",
+        "https://www.varonis.com/blog/nmap-commands/",
+        "https://www.networkworld.com/article/3296740/what-is-nmap-why-you-need-this-network-mapper.html"
+    ]
+}
