@@ -1,0 +1,11 @@
+{
+    "title": "File Transfer Protocol (FTP)",
+    "desc": "FTP is a protocol used to transfer computer files between machines on a network. It allows users to put, receive or get files.  FTP is one of the original programs for accessing the information on the Internet. It has been introduced long before HTTP became popular to access web pages.",
+    "links": [
+        "https://en.wikipedia.org/wiki/File_Transfer_Protocol",
+        "https://internet.frontier.com/resources/resources/internet-faqs/ftp/",
+        "https://www.dummies.com/computers/operating-systems/windows-xp-vista/what-is-ftp/",
+        "https://www.digitaltrends.com/computing/what-is-ftp-and-how-do-i-use-it/",
+        "https://searchnetworking.techtarget.com/definition/File-Transfer-Protocol-FTP"
+    ]
+}

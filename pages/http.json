@@ -1,0 +1,11 @@
+{
+    "title": "Hypertext Transfer Protocol (HTTP)",
+    "desc": "HTTP is a protocol used to access web pages over the Internet, such as HTML documents. It is one of the foundations of the World Wide Web. It defines how requests between a client and a web server are transmitted. You can find HTTP in some URLs even if its use has decreased with the arrival of a more secure upgrade of this protocol: HTTPS.",
+    "links": [
+        "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol",
+        "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview",
+        "https://www.cloudflare.com/learning/ddos/glossary/hypertext-transfer-protocol-http/",
+        "https://whatis.techtarget.com/definition/HTTP-Hypertext-Transfer-Protocol",
+        "https://www.webopedia.com/TERM/H/HTTP.html"
+    ]
+}

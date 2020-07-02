@@ -1,0 +1,11 @@
+{
+    "title": "Transmission Control Protocol (TCP)",
+    "desc": "TCP is a network communication protocol used by HTTP, SSH, FTP and a lot more network protocols. It consists to send supposedly error-free network packets in a specific order. First, the client asks the server to synchronize (SYN). Then, the server acknowledges the demand and synchronize with the client (SYN/ACK). Finally, the client acknowledges that the connection is synchronized and sends its data.",
+    "links": [
+        "https://en.wikipedia.org/wiki/Transmission_Control_Protocol",
+        "https://www.extrahop.com/resources/protocols/tcp/",
+        "https://www.youtube.com/watch?v=PpsEaqJV_A0",
+        "https://www.cloudflare.com/learning/ddos/glossary/tcp-ip/",
+        "https://searchnetworking.techtarget.com/definition/TCP"
+    ]
+}

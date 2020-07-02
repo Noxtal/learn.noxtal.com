@@ -1,0 +1,11 @@
+{
+    "title": "Telnet",
+    "desc": "Telnet is a computer protocol used to access a computer virtually over a network. It provides a text-based communication channel between the two machines. Since it's creation, in 1969, the use of Teletype Network (Telnet) has decreased with the arrival of SSH, featuring properties such as better security.",
+    "links": [
+        "https://en.wikipedia.org/wiki/Telnet",
+        "https://www.lifewire.com/what-does-telnet-do-2483642",
+        "https://www.extrahop.com/resources/protocols/telnet/",
+        "https://www.computerhope.com/jargon/t/telnet.htm",
+        "https://searchnetworking.techtarget.com/definition/Telnet"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "User Datagram Protocol (UDP)",
+    "desc": "UDP is a way to communicate information through a network without the need for any complex protocol consisting of handshakes (it is a connectionless communication model). UDP is faster than it's concurrent, TCP, but the user can be exposed to unreliabilities. This comes from the fact that UDP protocol has no step to verify the data: the data is sent fast but is not verified. This is used by streaming platforms and online games, for instance.",
+    "links": [
+        "https://en.wikipedia.org/wiki/User_Datagram_Protocol",
+        "https://www.educative.io/edpresso/what-is-udp",
+        "https://www.cloudflare.com/learning/ddos/glossary/user-datagram-protocol-udp/",
+        "https://www.geeksforgeeks.org/user-datagram-protocol-udp/",
+        "https://www.sdxcentral.com/resources/glossary/user-datagram-protocol-udp/"
+    ]
+}

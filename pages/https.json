@@ -1,0 +1,11 @@
+{
+    "title": "Hypertext Transfer Protocol Secure (HTTPS)",
+    "desc": "HTTPS is a secure protocol used to access web pages over the Internet, such as HTML documents. It is based on HTTP, which is the primary protocol to send data between a web browser and a website. HTTPS uses encryption to increase the security of each request. That is why you can often see that name in a URL alongside the famous little padlock. It is primordial to transmit sensitive data.",
+    "links": [
+        "https://en.wikipedia.org/wiki/HTTPS",
+        "https://www.cloudflare.com/learning/ssl/what-is-https/",
+        "https://www.ssl.com/faqs/what-is-https/",
+        "https://www.howtogeek.com/181767/htg-explains-what-is-https-and-why-should-i-care/",
+        "https://www.pickaweb.co.uk/kb/what-is-https/"
+    ]
+} 
